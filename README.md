@@ -8,17 +8,7 @@ http://shavinduthusharasampath-cv.great-site.net/
 
 You can Dounload my CV as a image via the link below
 
-...* Normal View :- 
-https://www.mediafire.com/view/xlirl4gvdy6k3wd/shavinduthusharasampath-cv.great-site.net_.png/file
-
-...* Advance View :-
-https://www.mediafire.com/view/s4q06oshzpf3oo5/shavinduthusharasampath-cv.great-site.net__%25281%2529.png/file
-
-
-
 * Normal View :- 
 https://www.mediafire.com/view/xlirl4gvdy6k3wd/shavinduthusharasampath-cv.great-site.net_.png/file
 - Advance View :-
-https://www.mediafire.com/view/s4q06oshzpf3oo5/shavinduthusharasampath-cv.great-site.net__%25281%2529.png/file
-+ Advance View :-
 https://www.mediafire.com/view/s4q06oshzpf3oo5/shavinduthusharasampath-cv.great-site.net__%25281%2529.png/file
