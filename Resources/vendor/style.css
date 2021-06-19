@@ -1,0 +1,505 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 23, 2021, 1:33:19 PM
+    Author     : Shavindu Thushara Sa
+*/
+
+/*====================================================================
+                            Genaral Css
+======================================================================*/
+
+@font-face {
+    font-family: "RS";
+    src: url(font-awesome/fonts/RobotoSlab.ttf);
+}
+
+@font-face {
+    font-family: "RC";
+    src: url(font-awesome/fonts/RobotoCondensed.ttf);
+}
+
+body{
+    background: #000;
+    color: #fff;
+    font-family: RS;
+    user-select: none;
+}
+
+.bg{
+    height: 100%;
+    border-radius: 40px;
+    background: #333333;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 4px rgba(256,256,256,0.4);
+}
+
+.border{
+    height: 100%;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.4);
+}
+
+hr{
+    background: #000;
+    height: 2px;
+    width: 94%;
+    border-radius: 20px;
+}
+
+.icon-cg{
+    color: #00ff00;
+}
+
+.panel-heading{
+    padding: 0;
+}
+
+.panel{
+    background: none;
+}
+
+/*====================================================================
+                            Main Heading
+======================================================================*/
+
+.content h1{
+    font-size: 50px;
+    color: #00ff00;
+}
+
+.content img{
+    margin: 20px auto 5px auto;
+    width: 20vw;
+}
+
+.content-title-underline{
+    background-color: #00ff00;
+    height:3px;
+    width: 30px;
+    border-radius: 50px;
+    margin: 10px auto 30px auto;
+}
+
+/*====================================================================
+                      Personal Information
+======================================================================*/
+
+.content-pi h4{
+    font-size: 2.7vw;
+}
+
+.content-pi .details .title{
+    font-family: RC;
+    font-size: 27px;
+    letter-spacing: 2px;
+    color: #00a60c;
+}
+
+/*====================================================================
+                      Educational Qualifications
+======================================================================*/
+
+.content-eq h4{
+    font-size: 2.7vw;
+    color: #ffffff;
+}
+
+.content-eq .details h3{
+    font-family: RC;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #337ab7;
+}
+
+.ol{
+    margin:20px 100px;   
+    background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
+    opacity: 90%;
+    border-radius: 50px;
+    transition: 0.5s;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+
+.ol:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px rgba(256,256,256,0.4);
+    cursor: pointer;
+}
+
+
+.al{
+    margin:20px 100px;  
+    background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
+    opacity: 90%;
+    border-radius: 50px;
+    transition: 0.5s;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+
+.al:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px rgba(256,256,256,0.4);
+    cursor: pointer;
+}
+
+.content-eq table{
+    width: 60%;
+    line-height: 30px;
+}
+
+.content-eq .details table td{
+    padding:10px 20px;
+}
+.content-eq .details table th{
+    padding-right: 10px;
+}
+
+.content-eq .details table tr{
+    border: 1.5px solid transparent;
+}
+
+.content-eq .details table tr:hover{
+    color: #00ff00;
+    cursor: pointer;
+    border-bottom: 1px solid #00ff00;
+}
+
+.content-eq .details table tr:active{
+    color: #ff0000;
+    cursor: pointer;
+    border-bottom: 1px solid #ff0000;
+}
+
+/*====================================================================
+                      Professional Qualifications
+======================================================================*/
+
+.content-pq h4{
+    font-size: 2.7vw;
+    color: #ffffff;
+}
+
+.content-pq .details h3{
+    font-family: RC;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #337ab7;
+}
+
+.content-pq .details{
+    margin-left: 50px;
+
+}
+.row{
+    width: 94%;
+}
+
+/*====================================================================
+                      Developing Skills
+======================================================================*/
+
+svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+    transform: rotate(-90deg);
+}
+
+svg circle{
+    width: 100%;
+    height: 100%;
+    Fill: none;
+    stroke: #191919;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+}
+
+svg circle:nth-child(2){
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    
+}
+
+.content-ds h4{
+    font-size: 2.7vw;
+    color: #ffffff;
+}
+
+.card-1 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke: #00ff00;
+}
+
+.card-2 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 65) / 100);
+    stroke: #ff0000;
+}
+
+.card-3 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 75) / 100);
+    stroke: #ff00ff;
+}
+
+.card-4 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 80) / 100);
+    stroke: #00ffff;
+}
+
+.card-5 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 75) / 100);
+    stroke: #ffff00;
+}
+
+.card-6 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+    stroke: #ffffff;
+}
+
+.container .card{
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 0 auto 15px auto;
+    padding: 30px 0;
+    background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.container .card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px rgba(256,256,256,0.4);
+    cursor: pointer;
+}
+
+.container .card h3{
+    font-size: 17px;
+}
+.percent .number{
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+/*====================================================================
+                      Computer Languages
+======================================================================*/
+
+.content-cl h4{
+    font-size: 2.7vw;
+    color: #ffffff;
+}
+
+.content-cl .cl .text{
+    font-size: 2vw;
+}
+
+.content-cl .cl .progress{
+    height: 35px;
+    border-radius: 40px;
+    background-color: #cccccc44;
+}
+
+.content-cl .cl .progress-bar{
+    border-radius: 40px;
+}
+
+/*====================================================================
+                      Contact Informations
+======================================================================*/
+
+.content-ci h4{
+    font-size: 2.7vw;
+    color: #ffffff;
+}
+
+.content-ci .details .title{
+    font-family: RC;
+    font-size: 27px;
+    letter-spacing: 2px;
+    color: #00a60c;
+}
+.content-ci .details .title{
+    font-family: RC;
+    font-size: 27px;
+    letter-spacing: 2px;
+    color: #00a60c;
+}
+
+
+.social-link-f{
+    padding-left: 0;
+}
+
+.social-link-f li{
+    list-style: none;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 1vw 0 1vw;
+    padding-top:15px;
+    background: #666666;
+    border-radius: 50px;
+}
+
+.social-icon-f i{
+    font-size: 30px;
+    color: #000;
+}
+
+.social-icon-f i:hover{
+    color: #fff;
+}
+
+.data a{
+    text-decoration: none;
+    color: #fff;
+}
+.data{
+   font-size: 20px;
+}
+.data a:hover{
+    color: #337ab7;
+}
+
+/*====================================================================
+                      Animations
+======================================================================*/
+
+#Main-Heading-img{
+    animation-delay: 0.5s;
+    animation-direction: .5s;
+}
+
+#Main-Heading-title{
+    animation-delay: 1s;
+    animation-direction: .5s;
+}
+
+.title{
+    animation-delay: .2s;
+    animation-direction: .9s;
+}
+
+.data{
+    animation-delay: .9s;
+    animation-direction: .9s;
+}
+
+.ol{
+    animation-delay: .1s;
+    animation-direction: .9s;
+}
+
+.al{
+    animation-delay: 1s;
+    animation-direction: .9s;
+}
+
+.list1{
+    animation-delay: .1s;
+    animation-direction: .9s;
+}
+
+.list2{
+    animation-delay: 1s;
+    animation-direction: .9s;
+}
+
+#card1{
+    animation-delay: 0s;
+    animation-direction: .9s;
+}
+
+#card2{
+    animation-delay: .5s;
+    animation-direction: .9s;
+}
+
+#card3{
+    animation-delay: 1s;
+    animation-direction: .9s;
+}
+
+#card4{
+    animation-delay: 1.5s;
+    animation-direction: .9s;
+}
+
+#card5{
+    animation-delay: 2s;
+    animation-direction: .9s;
+}
+
+#card6{
+    animation-delay: 2.5s;
+    animation-direction: .9s;
+}
+
+#p1{
+    animation-delay: 0s;
+    animation-direction: .9s;
+}
+
+#p2{
+    animation-delay: .5s;
+    animation-direction: .9s;
+}
+
+#p3{
+    animation-delay: 1s;
+    animation-direction: .9s;
+}
+
+#p4{
+    animation-delay: 1.5s;
+    animation-direction: .9s;
+}
+
+#p5{
+    animation-delay: 2s;
+    animation-direction: .9s;
+}
+
+#p6{
+    animation-delay: 2.5s;
+    animation-direction: .9s;
+}
+
+.social-link-f li:nth-child(1){
+    animation-delay: 0.5s;
+    animation-direction: .9s;
+}
+.social-link-f li:nth-child(2){
+    animation-delay: 0.8s;
+    animation-direction: .9s;
+}
+.social-link-f li:nth-child(3){
+    animation-delay: 1s;
+    animation-direction: .9s;
+}
+.social-link-f li:nth-child(4){
+    animation-delay: 1.2s;
+    animation-direction: .9s;
+}
+.social-link-f li:nth-child(5){
+    animation-delay: 1.4s;
+    animation-direction: .9s;
+}

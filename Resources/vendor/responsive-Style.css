@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 30, 2021, 8:38:28 PM
+    Author     : Shavindu Thushara Sa
+*/
+
+@media(min-width:1200px){
+    .content h1{
+        color: #00ff00;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px){
+    .content h1{
+        color: #00ff00;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .content h1{
+        color: #00ff00;
+        font-size: 40px;
+    }
+    .ol{
+        margin: 10px 0;
+    }
+    .al{
+        margin: 10px 0;
+    }
+}
+
+@media(max-width:767px){
+    .content h1{
+        color: #00ff00;
+        font-size: 30px;
+    }    
+    .content h1 small{
+        font-size: 3vw;
+    }
+    .ol{
+        margin: 10px 0;
+    }
+    .al{
+        margin: 10px 0;
+    }
+}
+
+@media(max-width:600px){
+    .data a{
+        font-size: 3vw;;
+    }
+}
+
+@media(max-width:520px){
+    .content h1{
+        color: #00ff00;
+        font-size: 25px;
+    }
+    .content h1 small{
+        font-size: 2.5vw;
+    }
+}
+
+@media(max-width:445px){
+    .content h1{
+        color: #00ff00;
+        font-size: 20px;
+    }
+    .content h1 small{
+        font-size: 2.5vw;
+    }
+}
+
+@media(max-width:380px){
+    .content h1{
+        color: #00ff00;
+        font-size: 15px;
+    }
+    .content h1 small{
+        font-size: 2.5vw;
+    }
+    
+}
