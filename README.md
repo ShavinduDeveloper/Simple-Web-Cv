@@ -6,4 +6,4 @@ HTML, Css, Javascript, jquery are used for this
 You can see my CV via the link below 
 http://shavinduthusharasampath-cv.great-site.net/
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[logo]: https://www.mediafire.com/view/s4q06oshzpf3oo5/shavinduthusharasampath-cv.great-site.net__%25281%2529.png
