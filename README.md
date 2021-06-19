@@ -23,3 +23,7 @@ https://www.mediafire.com/view/s4q06oshzpf3oo5/shavinduthusharasampath-cv.great-
 1. Actual numbers don't matter, just that it's a number
 ⋅⋅1. Ordered sub-list
 4. And another item.
+
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
